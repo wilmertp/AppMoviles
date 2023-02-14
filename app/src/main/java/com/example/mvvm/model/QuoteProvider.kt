@@ -10,7 +10,7 @@ class QuoteProvider {
 
         private val quote = listOf<QuoteModel>(
             QuoteModel(quote = "Ejemplo 1", autor = "Wilmer"),
-            QuoteModel(quote = "Ejemplo 2", autor = "Damien"),
+            QuoteModel(quote = "Ejemplo 2", autor = "Damian"),
             QuoteModel(quote = "Ejemplo 3", autor = "Tamay")
         )
     }

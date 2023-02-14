@@ -13,4 +13,5 @@ class QuoteViewModel:ViewModel() {
         val currentQuote = QuoteProvider.random()
         quoteModel.postValue(currentQuote)
     }
+
 }
