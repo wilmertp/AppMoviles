@@ -36,7 +36,5 @@ class QuoteViewModel:ViewModel() {
             quoteModel.postValue(quote)
         }
         isloading.postValue(false)
-        //val currentQuote = QuoteProvider.random()
-        //quoteModel.postValue(currentQuote)
     }
 }
