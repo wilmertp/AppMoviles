@@ -5,7 +5,7 @@ import androidx.room.Entity
 import androidx.room.PrimaryKey
 import com.example.mvvm.domain.model.Quote
 
-@Entity(tableName ="quote_table")
+@Entity(tableName = "quote_table")
 data class QuoteEntity(
     @PrimaryKey(autoGenerate = true)
     @ColumnInfo(name = "id") val id:Int = 0,
